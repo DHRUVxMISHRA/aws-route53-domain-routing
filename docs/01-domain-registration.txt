@@ -1,0 +1,93 @@
+# 🌐 Prepare Custom Domain
+
+---
+
+# 📖 Overview
+
+In this milestone, an existing custom domain was prepared for use in the project.
+
+Instead of registering a new domain through Amazon Route 53, a domain that was previously purchased from **Hostinger** was selected. This domain will be integrated with Amazon Route 53 in the upcoming milestones to enable DNS management and routing to AWS services.
+
+---
+
+# 🎯 Objective
+
+The objective of this milestone was to:
+
+- Use an existing custom domain
+- Verify the domain ownership and active status
+- Confirm the domain is ready for AWS Route 53 integration
+- Prepare the domain for DNS management and routing
+
+---
+
+# 🌍 Domain Information
+
+| Property | Value |
+|----------|-------|
+| Domain Name | dhruvmishra.co.in |
+| Registrar | Hostinger |
+| Domain Status | Active |
+| Auto-Renewal | Disabled |
+| Expiration Date | 12 June 2027 |
+| Current Nameservers | apollo.dns-parking.com<br>athena.dns-parking.com |
+
+---
+
+# 🏗️ Implementation Steps
+
+## Step 1
+
+Purchased and registered the custom domain **dhruvmishra.co.in** through **Hostinger**.
+
+---
+
+## Step 2
+
+Opened the **Hostinger Domain Dashboard** to verify the domain details.
+
+---
+
+## Step 3
+
+Verified the following information:
+
+- Domain is active
+- Ownership information is configured
+- Expiration date is valid
+- Current nameservers are assigned
+
+---
+
+## Step 4
+
+Confirmed that the domain is ready to be connected with **Amazon Route 53** in the next milestone for DNS management.
+
+---
+
+# ✅ Result
+
+The custom domain **dhruvmishra.co.in** is active and ready for integration with Amazon Route 53.
+
+This domain will be used throughout the project to demonstrate DNS routing to Amazon S3 Static Website Hosting and Amazon EC2.
+
+---
+
+# 📷 Screenshots
+
+### Domain Overview
+
+![Domain Overview](../screenshots/01-domain-registration/01-domain-overview.png)
+
+---
+
+# 🚀 Next Step
+
+The next milestone is to create a **Hosted Zone** in Amazon Route 53.
+
+This includes:
+
+- Creating a Public Hosted Zone
+- Importing the custom domain into Route 53
+- Obtaining the Route 53 Name Servers
+- Preparing the domain for DNS record configuration
